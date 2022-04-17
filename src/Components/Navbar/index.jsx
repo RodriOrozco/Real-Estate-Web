@@ -10,11 +10,11 @@ import {
   Button,
 } from "./NavBar.styled";
 
-const NavBar = () => {
+const NavBar = ({ toggle }) => {
   return (
     <Nav>
       <Logo to="/">ELIXR</Logo>
-      <MenuBars />
+      <MenuBars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, index) => {
           return (
