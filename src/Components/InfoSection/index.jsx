@@ -14,7 +14,7 @@ const InfoSection = () => {
       {InfoData.map((info, index) => {
         return (
           <Container key={index}>
-            <ColumnLeft>
+            <ColumnLeft reverse={info.reverse}>
               <h1>{info.heading}</h1>
               <p>{info.paragraphOne}</p>
               <p>{info.paragraphTwo}</p>
