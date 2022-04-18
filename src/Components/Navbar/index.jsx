@@ -13,7 +13,7 @@ import {
 const NavBar = ({ toggle }) => {
   return (
     <Nav>
-      <Logo to="/">ELIXR</Logo>
+      <Logo to="/">RSH</Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, index) => {

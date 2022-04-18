@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { VscThreeBars } from "react-icons/vsc";
 
 const NavLink = css`
-  color: #fff;
+  color: orange;
+  font-weight: bold;
   display: flex;
   align-items: center;
   padding: 0 1rem;
@@ -44,7 +45,7 @@ export const MenuBars = styled(VscThreeBars)`
     top: 0;
     right: 0;
     transform: translate(-50%, 25%);
-    color: white;
+    color: orangered;
   }
 `;
 
